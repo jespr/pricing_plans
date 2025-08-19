@@ -38,7 +38,7 @@ PricingPlans.configure do |config|
 end
 ```
 
-We're just **defining** what the plan does now. Later, we'll see [all the methods we can use to enforce these limits and gate these features](#gate-features-in-controllers) very easily.
+We're just **defining** what the plan does now. Later, we'll see [all the methods we can use to enforce these limits and gate these features](docs/02-controller-helpers.md#gate-features-in-controllers) very easily.
 
 
 All features are disabled by default unless explicitly made available with the `allows` keyword. However, for clarity we can explicitly say what the plan disallows:
